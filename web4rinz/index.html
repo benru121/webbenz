@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webbenz | Page</title>
+    <link rel="stylesheet" href="./assets/css/materialize.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/v4-shims.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: cursive;
+        }
+        
+        body {
+            background: radial-gradient(circle at top, #8F47B3, #FFB7D5);
+        }
+        
+        .container {
+            padding: 20px 0;
+        }
+        
+        .container welcome {
+            font-size: 30px;
+            font-weight: 800;
+            color: gold;
+            text-shadow: 2px 2px #222;
+        }
+        
+        #img-container {
+            padding: 40px 0;
+        }
+        
+        #img-container img {
+            border-radius: 50%;
+            border: 10px groove #FFD12A;
+        }
+        
+        #img-container #ribbon {
+            font-size: 100px;
+            color: orange;
+        }
+        
+        h1 {
+            font-weight: 800;
+            font-size: 20px;
+            padding: 10px 20px;
+            border-radius: 10px;
+            margin-top: -50px;
+            z-index: 999;
+        }
+        
+        #btn a {
+            border: 5px groove #222;
+            border-radius: 10px;
+            background: #FFD12A;
+            color: #222;
+            font-weight: 800;
+            padding: 10px 40px;
+        }
+        
+        #btn:hover a {
+            transition: 0.5s ease-in;
+            transform: scale(1.1);
+            background: deeppink;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m8 l8 offset-m2 offset-l2 center-align">
+
+                <welcome>WELCOME</welcome>
+
+                <br>
+
+                <div id="img-container">
+                    <img src="./assets/img/rina-img.jpg" alt="rina-img" width="160" height="160">
+                    <br><br><br><br>
+                    <div>
+                        <h1>RINA ESPINO VILLANUEVA</h1>
+                    </div>
+
+                </div>
+
+                <br>
+
+                <div id="btn">
+                    <a href="./loader.php" class="waves-effect pulse">CONTINUE</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+
+    <!-- script here  -->
+    <script src="./assets/js/jquery-1.7.2.min.js"></script>
+    <script src="./assets/js/materialize.min.js"></script>
+    <script src="./assets/fontawesome/js/all.min.js"></script>
+    <script src="./assets/fontawesome/js/v4-shims.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webbenz | Greetings</title>
+    <link rel="stylesheet" href="./assets/css/W3CSS/w3.min.css">
+    <link rel="stylesheet" href="./assets/css/materialize.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/v4-shims.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: cursive;
+        }
+        
+        body {
+            background: radial-gradient(circle at top, #8F47B3, #FFB7D5);
+        }
+        
+        header {
+            position: sticky;
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            background: dimgray;
+            padding: 10px;
+        }
+        
+        header #left .fa-arrow-circle-left {
+            font-size: 20px;
+            color: hotpink;
+        }
+        
+        header #left .fa-arrow-circle-left:hover {
+            transform: scale(1.1);
+            transition: 0.5s ease-in;
+        }
+        
+        header #right img {
+            border-radius: 50%;
+            border: 2px solid goldenrod;
+        }
+        
+        #box-header,
+        #box-content {
+            background: honeydew;
+            padding: 5px 20px;
+            margin-bottom: 10px;
+        }
+        
+        #box-header p {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        
+        #box-header p img {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            transition: 0.5s ease;
+        }
+        
+        #box-header p img:hover {
+            transform: scale(1.3);
+        }
+        
+        #box-header p span {
+            padding: 0 0 10px 10px;
+            margin-top: 10px;
+        }
+        
+        #box-content {
+            padding: 20px;
+            text-align: center;
+        }
+        
+        #box-content #more {
+            display: none;
+        }
+        
+        #btn_list {
+            background: #222;
+            border-radius: 50%;
+            border: 4px solid white;
+            box-shadow: inset 0 2px 10px #222, 0 2px 10px #222;
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            z-index: 999999;
+            font-size: x-large;
+            height: 10vh;
+            width: 10vh;
+            text-align: center;
+            padding: 0 0 0 0;
+        }
+        
+        #btn_list:hover {
+            background: chartreuse;
+        }
+        
+        #id01 {
+            text-align: center;
+            top: 0;
+            left: 0;
+        }
+        
+        #id01 header {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        
+        #id01 header span {
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="./greetings.html" id="left" class="left-align">
+            <i class="fa fa-arrow-circle-left"></i>
+        </a>
+        <div id="right" class="right-align">
+            <img src="./assets/img/rina-img.jpg" alt="rinz_profile" width="50" height="50">
+        </div>
+    </header>
+    <div class="row">
+        <div class="col s12 m8 l8 offset-m2 offset-l2 center-align">
+            <div class="container section">
+                <div class="row">
+                    <div class="col s12 m12 l12">
+
+                        <!-- box header  -->
+                        <div id="box-header" class="left-align">
+                            <p>
+                                <img src="./assets/img/benz_profile.jpg" alt="val_profile">
+                                <span>Benru P. Macatangay</span>
+                            </p>
+                        </div>
+
+                        <!-- box content  -->
+                        <div id="box-content">
+                            <p id="title">
+                                <center>
+                                    <h5 class="purple-text"><b>Binibini</b></h5>
+                                    <span class="blue-text"><i>by: Benru Presno Macatangay</i></span>
+                                </center>
+                            </p>
+                            <br>
+                            <p>
+                                <span class="blue-text">Binibini</span>, isang lihim ang aking isinulat para sa iyo <br> Maaari mo bang ibahagi sa akin ang kislap ng iyong kagandahan? <br> Marami ang nakakakita ng kagandahan ngunit, naipakita mo na ba
+                                ang kailaliman? <br> Sa isang kupas na imaheng namumuo sa aking isipan <br> Higit pa ang kalawakan at kung maikukumpara ko sa mga tala sa kalangitan <br> Iisa ang isinasaad na iyong kagandahan. Yun ay ang kalungkutan <br>                                Isang sulyap na tila ba wala ka ng ibang nanaisin pa, o hihingin. <br> Ang paghahangad ay labis subalit sasapat sa nagkukulang kong damdamin <br><br> <span class="blue-text">Binibini</span>, bakit nga ba namumuo sa'yong
+                                mata ang labis na kalungkutan? <br> bakit tila, sa aking pananaw ay nagsasabi na ika'y pagod na? <br> Bakit ako ang nakakakita ng iyong paghihirap? <br><br> <span class="blue-text">Binibini</span>, sa kabila ng lahat ng
+                                iyon, nagagawa mo parin na magtiis? <br> Hanga ako sayo binibini. <br> Hindi lang paghanga ang aking nadarama. <br> Higit pa sa matatamis na salita. <br> Higit pa sa pagpaparamdam ko sa'yo. <br><br> <span class="blue-text">Binibini</span>,
+                                lubos akong nagmamahal sa iyo. <br> Maaari ba'ng ako naman ang pakinggan mo? <br> Na sana ay makarating sa'yo ang lahat ng hangad ko? <br> Hangad ko ang iyong kaligayahan. <br> Ngunit hindi ko maipapangako na hindi kita
+                                sasaktan. <br> Hindi ko maipapangakong sa iyo na ang bawat alaala sa aking piling ay magigng espesyal. <br> Sapagkat sa likod ng matatamis na salita ay ang pagkukubli ng masamang hangarin. <br> Hangarin na ika'y saktan.
+                                <br> Hangarin na sa bawat pangakong binitawan ay walang matupad. <br> Hangarin na iwanan ka ng nag-iisa. <br> At hangarin na mag-iiwan sa iyo ng bakas na magdudulot ng iyong pagkahina. <br> Hindi ko man maipangako na hindi
+                                ka saktan. <br> Ang aking saloobin sa iyo ay totoo at walang bahid na kasamaan. <br> Hindi ko man magawang makapunta sa iyong tabi, <br> Nakasisiguro ako na makakarating sa'yo ang aking alab na damdamin. <br><br>
+
+
+
+
+
+
+                                <br><br>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <button id="btn_list" class="btn white-text pulse waves-effect waves-ripple" onclick="document.getElementById('id01').style.display='block'">
+        <i class="fa fa-list"></i>
+    </button>
+
+    <div id="id01" class="w3-modal">
+        <div class="w3-modal-content">
+            <header class="w3-container w3-deep-orange w3-center">
+                <span onclick="document.getElementById('id01').style.display='none'" class="w3-closebtn btn grey">×</span>
+                <h5><b>Poem Lists</b></h5>
+                <p><i class="white-text">Created For You</i></p>
+                <br>
+            </header>
+            <div class="w3-container" style="padding: 30px 5px;">
+                <div class="row">
+                    <div class="col s10 offset-s1 m10 offset-m1 l10 offset-l1">
+                        <div class="row">
+                            <div class="col s6 m6 l6 left-align">
+                                <h6 class="orange-text">Isa Pa </h6>
+                            </div>
+                            <div class="col s6 m6 l6 right-align">
+                                <a href="./poem.html" class="btn btn-small pink">OPEN</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s6 m6 l6 left-align">
+                                <h6 class="orange-text">Aking Iniibig </h6>
+                            </div>
+                            <div class="col s6 m6 l6 right-align">
+                                <a href="./poem2.html" class="btn btn-small pink">OPEN</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s6 m6 l6 left-align">
+                                <h6 class="orange-text">Binibini </h6>
+                            </div>
+                            <div class="col s6 m6 l6 right-align">
+                                <a href="./poem3.html" class="btn btn-small pink">OPEN</a>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col s6 m6 l6 left-align">
+                                <h6 class="orange-text">Ikaw </h6>
+                            </div>
+                            <div class="col s6 m6 l6 right-align">
+                                <a href="./poem4.html" class="btn btn-small pink">OPEN</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="section">
+        <div class="row">
+            <div class="col s12 m12 l12 center-align">
+                <footer>
+                    Copyright &copy; 2021 <br>
+                    <i>by Benru Presno Macatangay</i> <br>
+                    <span class="blue-text"><i><u>benzkiemacz@gmail.com</u></i></span>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- script here  -->
+    <script src="./assets/js/jquery-1.7.2.min.js"></script>
+    <script src="./assets/js/materialize.min.js"></script>
+    <script src="./assets/fontawesome/js/all.min.js"></script>
+    <script src="./assets/fontawesome/js/v4-shims.min.js"></script>
+    <script>
+        $(document).ready(() => {
+
+            $('#btn_more').on('click', () => {
+                $('#more').show(500);
+                $('#btn_more').hide();
+            })
+
+        })
+
+        var modal = document.getElementById("id01");
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+    </script>
+
+</body>
+
+</html>

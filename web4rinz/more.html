@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webbenz | Greetings</title>
+    <link rel="stylesheet" href="./assets/css/materialize.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="./assets/fontawesome/css/v4-shims.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: cursive;
+        }
+        
+        body {
+            background: radial-gradient(circle at top, #8F47B3, #FFB7D5);
+        }
+        
+        header {
+            position: sticky;
+            top: 0;
+            left: 0;
+            width: 100%;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            background: dimgray;
+            padding: 10px;
+        }
+        
+        header #left .fa-arrow-circle-left {
+            font-size: 20px;
+            color: hotpink;
+        }
+        
+        header #left .fa-arrow-circle-left:hover {
+            transform: scale(1.1);
+            transition: 0.5s ease-in;
+        }
+        
+        header #right img {
+            border-radius: 50%;
+            border: 2px solid goldenrod;
+        }
+        
+        #box-header,
+        #box-content {
+            background: honeydew;
+            padding: 5px 20px;
+            margin-bottom: 10px;
+        }
+        
+        #box-header p {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+        }
+        
+        #box-header p img {
+            width: 35px;
+            height: 35px;
+            border-radius: 50%;
+            transition: 0.5s ease;
+        }
+        
+        #box-header p img:hover {
+            transform: scale(1.3);
+        }
+        
+        #box-header p span {
+            padding: 0 0 10px 10px;
+            margin-top: 10px;
+        }
+        
+        #box-content {
+            padding: 20px;
+            text-align: justify;
+        }
+        
+        #box-content #more {
+            display: none;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <a href="./greetings.html" id="left" class="left-align">
+            <i class="fa fa-arrow-circle-left"></i>
+        </a>
+        <div id="right" class="right-align">
+            <img src="./assets/img/rina-img.jpg" alt="rinz_profile" width="50" height="50">
+        </div>
+    </header>
+    <div class="row">
+        <div class="col s12 m8 l8 offset-m2 offset-l2 center-align">
+            <div class="container section">
+                <div class="row">
+                    <div class="col s12 m12 l12">
+
+                        <!-- box header  -->
+                        <div id="box-header" class="left-align">
+                            <p>
+                                <img src="./assets/img/benz_profile.jpg" alt="benz_profile">
+                                <span>Benru P. Macatangay</span>
+                            </p>
+                        </div>
+
+                        <!-- box content  -->
+                        <div id="box-content">
+                            <p>
+                                Ang Tunay Na Pag-ibig. <br> Marami na ang nagtangka, nagpaliwanag at nagbahagi ng kani-kanilang istorya tungkol sa tunay na pag-ibig. Marami ang nag-akala, naghanap, naghahanap at nakahanap ng tunay nilang pag-ibig ngunit
+                                paano ba natin malalaman ang tunay na pag-ibig? Paano natin malalaman kung ang iyong nararamdaman ay tunay ngang pag-ibig at hindi paghanga, pagnanasa o pagbugso lang ng isang kagandahan/kagwapuhan o pisikal na atraksiyon
+                                lang?
+                            </p>
+                            <br>
+                            <p>
+                                Lahat tayo ay nagmamahal at nais na mahalin, lahat tayo ay nasasaktan at may kakayahang manakit, minsan sa ating buhay lahat tayo ay nabigo ngunit minsan naman'y tayo ang dahilan ng isang pagkabigo. Bakit kahit gaano mo kamahal ang isang tao darating
+                                ang isang panahon na kayo'y hindi magkakasundo? Bakit kahit gaano mo kamahal ang isang tao ay mapahanga at mabibighani ka sa iba? Bakit minsan ay hindi sumasapat ang pag-ibig para mapanatiling walang alitan ang isang samahan?
+                                Bakit minsan kahit alam mong may pagmamahal ka may pagkakataong PARANG nabobored ka o nananawa ka? Hindi man mismo sa kanya o kanyang presensiya kundi sa sitwasyong parang paulit-ulit.
+                            </p>
+                            <br>
+                            <p>
+                                Walang pagsidlan ang kasiyahan ng taong nagmamahal at minamahal; wala kang pakialam sa oras at sa mga taong nasa paligid mo dahil ang importante para sa iyo ay ang samantalahin ang pagkakataon na kayo'y magkasama. Lahat ay kaya mong suwayin, lahat ay
+                                kaya mong tiisin dahil lahat ng para sa iyo ay kaligayahan sa tuwing siya'y iyong kasama. Ang pakiramdam na parang gusto mong pigilan ang pagtakbo ng oras, para hindi ka dalawin ng antok sa tuwing siya'y iyong kausap, parang
+                                mabubusog ka sa kahit na anong ihain sa iyong harapan at ang pananabik na siya'y muling makita kahit na ilang oras pa lang kayong nagkakawalay at kaya mong baguhin ang buo mong pagkatao para sa kanya. Ang lahat ng bagay
+                                ay puno ng pangarap, kasiyahan at kaliwanagan. Ngunit sa sandaling kayo ay subukin ng tadhana at may ulap na nang pag-aalinlangan ang iyong kaisipan dito natin malalaman, masusubukan at masusukat ang tunay na pag-ibig.
+                            </p>
+                            <br>
+                            <p>
+                                Sabi, kung ikaw ay nagmahal at minamahal binigyan mo raw ng karapatan ang taong ito na ikaw ay saktan. Isang kakatwa na kung sino ang labis mong mahal siya rin ay may kakayahan na labis kang saktan, kung sino ang yung pinagkukunan ng lakas siya rin ang
+                                magiging dahilan ng iyong kahinaan, kung sino ang kasama mo sa pagbuo ng pangarap siya rin ang may kakayahang paguhuin ito anumangoras. <br> Hindi ba talaga natin ito maiiwasan? <br> Hindi
+                                ba sasapat ang inyong pagmamahalan para mapigilan ito?
+                            </p>
+                            <br>
+                            <p>
+                                Madalas tayong dayain ng ating mga mata, takaw-tingin ika nga; sinasabi nating "mahal kita" pero sa tuwing may nakikita tayong mas maganda/gwapo nabibighani naman tayo dito. Ipinapangako natin ang samahang walang iwanan sa hirap o ginhawa ngunit paano
+                                kung magkasakit at mawalan ng trabaho ang iyong asawa hindi kaba tatabangan sa inyong pagsasama? Sinasabi nating "mahal kita" pero kung matuklasan mong hindi siya pwedeng magkaanak hindi ba papasok sa isip mo ang magkaanak
+                                sa iba? Handa kang talikdan ang iyong pamilya para sa kanya pero paano kung wala na kayong makain hindi kaba manunumbat o makakaramdam ng labis-labis na pagsisisi? <br> Hanggang saan natin
+                                kayang ipaglaban ang ating pag-ibig? <br> Kailangan ba nating tikman ang pagkakamali para malaman natin kun sino ang tunay nating mahal?
+                            </p>
+                            <br>
+                            <p>
+                                MAHAL KITA. Isang maiksing pangungusap na maaaring makapagpabago ng matagal o habangbuhay sa iyong buhay. Napakadaling sabihin ito lalo't sa mga taong may kaaya-ayang atraksiyong pisikal ngunit paano kung dumating ang panahong hindi na siya maganda/gwapo?
+                                O natuklasan mong marami sa ugali niya ang hindi mo gusto? O mayroon siyang madilim at nakakahiyang nakaraan? O ang mga kaanak/pamilya niya ay hindi mo makasundo ang pag-uugali? O nawalan siya ng trabaho at mistula na siyang
+                                inutil sa paningin mo at ng maraming tao? O siya'y mangalunya sa higit na mas kaakit-akit kaysa sa iyo? O magkasakit siya ng malala at isa na siyang alagain at pabigat sa iyo at sa iyong pamilya? Kaya mo pa rin bang banggitin
+                                ang salitang "mahal kita"? O magdadalawang isip ka na dahil marami nang negatibong dahilang sagabal upang ito'y sambitin.
+                            </p>
+                            <br>
+                            <p>
+                                Ang katagang "Mahal Kita" ay hindi parang isang gift certificate na transferable, kung magsasabi ka ng mahal kita siguraduhin mong pag-ibig ang iyong nadarama. Ito ay sagrado na hindi dapat basta-basta binibigkas sa kung kanino lang kung ang layunin mo
+                                lang ay paglaruan ang damdamin ng iba at magsatisfy ang iyong pagnanasa. Nakakalungkot lang na patuloy itong inaabuso ng lahat ng uri ng tao; kabataan o may edad, mayaman o dukha, may pinag-aralan man o mangmang. Pag sinabing
+                                mong Mahal Kita siguraduhin mong may pagmamahal ka talagang nararamdaman dahil ang pag-ibig ay hindi natatapos sa dalawang salita na ito, habangbuhay itong commitment na iyong pangangatawanan sa kanya at sa mabubuo mong
+                                pamilya (Kung kayo ay magkakatuluyan).
+                            </p>
+                            <br>
+                            <p>
+                                MAHAL KITA, walang pero, walang subalit, walang pangako
+                            </p>
+                            <br>
+                            <p>
+                                <b>Walang pero.</b> Dahil ang pag-ibig ay hindi lumilingon sa nakaraan. Kung mahal mo ang isang tao hindi ka nanghuhusga base sa kanyang kahapon, kaya mo siyang tanggapin kung ano siya at ang kanyang pagkatao, kasama ng
+                                kanyang nakaraan at lahat ng kanyang kamalian. Kaya mo siyang ipaglaban sa kahit kaninong kaharap mo at ikaw ang unang-unang magtatanggol sa kanya sa oras na may mangyurak sa kanyang kapurian. Lahat ay may karapatang magbago
+                                wag tayong maging mapanghusga dahil lang sa isang madilim na kahapon at maling desisyon dahil ang tunay na pag-ibig ay hindi mapanghusga at malawak ang pang-unawa.
+                            </p>
+                            <br>
+                            <p>
+                                <b>Walang subalit.</b> Dahil ang pag-ibig ay hindi humahanap ng alibi. Kung mahal mo ang isang tao hindi ka dapat nagdadahilan kung nais mong sabihin ang nararamdaman mong ito kahit na ang posibleng katumbas nito'y pagkabigo
+                                o kasawian, kahit alangan ang sitwasyon mo o hindi pantay ang inyong estado o kalagayan sa buhay, kahit na tutol sa iyo ang kanyang pamilya. Sa aking pananaw, ang pagsasabi ng "Mahal Kita" ay hindi kahulugan na dapat ay
+                                gantihan ka rin ng pagmamahal sa taong sinabihan mo nito dahil ang tunay na pag-ibig ay marunong magparaya at magpakumbaba.
+                            </p>
+                            <br>
+                            <p>
+                                <b>Walang pangako.</b> Dahil lahat tayo ay may kakayahan at kapasidad na basagin ang isang pangako anumang oras, anumang pagkakataon. Huwag mong ipangako ang bituin kung hindi mo kayang abutin, gawin mo lang ang obligasyon
+                                mo at mahalin siya ng taos puso mo tiyak maiintindihan ka ng mahal mo. Huwag mong ipangako ang kayamanan dahil baka mabigo kang ibigay ito, sapat na ang magsikap ka at gawing inspirasyon ang kanyang pag-ibig sa'yo, mabigo
+                                ka man naipakita mong nagsikap ka at naging karapat-dapat ka sa kanyang pagmamahal. Hindi natin kailangang makarinig ng pangako o magbitaw ng isang pangako dahil kong tunay ang pag-ibig na inyong naramdaman, ang inyong
+                                pagmamahalan ang inyong magiging matibay na sandigan at tiyak na kayo'y magsasama nang higit pa sa inyong inaasahan.
+                            </p>
+                            <br>
+                            <p>
+                                Ang pag-ibig ay hindi usapin kung gaano kayo katagal na magkakilala, o gaano kayo kalayo sa isa't isa, hindi ito usapin kung gaano kayo katagal muling magkikita dahil ang tunay na pag-ibig ay marunong maghintay, may pagtitiwala at marunong magtiis para
+                                sa isang magandang bukas. <br> Ang Pag-ibig ay hindi paghahanap ng perpektong tao para sayo kundi ang pagtanggap niyo sa isa't isa na inyong kapintasan <br> Kung ang pag-ibig mo ay magreresulta
+                                sa isang magulo at kumplikadong sitwasyon na maaaring makasira ng isang napakagandang samahan o pagwasak ng isang relasyon o pamilya mas makabubuting hindi na ito isiwalat, dahil ang tunay na pag-ibig ay nakakaunawa at
+                                hindi makasarili. Ang kanyang kasiyahan ay kasiyahan mo na rin.
+                            </p>
+                            <br>
+                            <p>
+                                Maaring malupit ang mundo, ang taong mahal mo ay may mahal na iba habang ikaw ay nangangarap lang na balang araw na siya ay mapasaiyo, maaring ang taong mahal mo ay basura para sa iba ngunit kayamanan kung ito'y iyong ituring na higit pa sa luha ang gusto
+                                mong i-offer sa tuwing nakikita mo siyang nasasaktan at umiiyak. Ngunit hindi lahat ng gusto natin ay mangyayari, hindi sa lahat ng panahon ay sasang-ayon sa atin ang pagkakataon na kahit anong pagpupursigi mo ay hindi
+                                pa rin papabor sa iyo ang resulta. Ngunit kailangan mong gawin ito dahil ang tunay na pag-ibig ay hindi sisira ng buhay at pamilya at ang tunay na pag-ibig ay matapang na hinaharap ang kanyang kapalaran.
+                            </p>
+                            <br>
+                            <p>
+                                Hanggang saan ang kaya mong ibibgay para sa pag-ibig? <br> Hanggang saan ang kaya mong tiisin para sa pag-ibig? <br> Hanggang saan ang iyong pagpapakumbaba para sa pag-ibig? <br> Ilang pagsubok ang kaya mong lampasan para
+                                sa pag-ibig? <br> Ilang tukso ang kaya mong talikuran para sa pag-ibig? <br> Ilang pagpapatawad ang kaya mong ipataw para sa pag-ibig?
+                            </p>
+                            <br>
+                            <p>
+                                Ang pag-big ay pagtitiis ngunit hindi katumbas nito na ikaw ay magpakabayani at patuloy na mahalin ang taong iresponsable, walang pagpupursigi at walang pagsisikap upang mapaunlad ang inyong samahan at pamilya.
+                            </p>
+                            <br>
+                            <p>
+                                Ang pag-ibig ay pagpapakumbaba ngunit hindi ibig ipakahulugan nito na ikaw ay habangbuhay na magpapaalila at magbibigay sa lahat ng kanyang kagustuhan dahil kung tunay ang kanyang pag-ibig sa iyo dapat marunong din siyang magpakumbaba at umunawa dahil
+                                dapat ang pagmamahalan ay para sa DALAWA hindi sa isa lang.
+                            </p>
+                            <br>
+                            <p>
+                                Ang tunay na pag-ibig ay nagpapatawad ngunit hindi ibig sabihin nito na patuloy kang magpatawad para sa paulit-ulit na kasalanan. Ang paghingi ng tawad ay may kaakibat na pagsisisi at pagtanggap sa kamaliang nagawa at pangakong hindi na ulit ito mangyayari
+                                ngunit kung ilang beses nang inulit ang parehong pagkakasala parang kalokohan na lang ang pagpapatawad. Wag matakot at mabahala dahil may ibang taong mas karapat-dapat sa iyong pagmamahal.
+                            </p>
+                            <br>
+                            <p>
+                                Ang tunay na pag-ibig ay hindi sinusukat sa panahong kayo ay bata pa at maganda, hindi sa panahong kayo ay labis na masaya at masagana, hindi sa panahong pareho pang makinis ang inyong balat, hindi sa panahong masasarap pa ang inyong pagniniig sa gabi,
+                                hindi sa panahong wala ang mapanghalinang tukso at lalong hindi sa panahong wala kayong karamdaman at problema. <br> Dahil ang tunay na pag-ibig hindi lang puro sarap at kasiyahan kundi kasama
+                                rito ang hirap at kalungkutan. <br> Ang tunay na pag-ibig hindi nagugupo ng pagsubok, hindi pinagbabago ng panahon.
+                            </p>
+                            <br>
+                            <p>
+                                Maaring kulang at hindi pa sapat ang pagpapaliwanag at pagkakaunawa ko sa tunay na pag-ibig ngunit katulad nang sa Karagatan, ang pag-ibig ay malawak at walang eksaktong sukat, tulad nang sa karagatan minsan ito'y maalon kung minsan naman ay kalmado,
+                                minsan kasiyahan ang dulot minsan naman ay makadarama ka ng labis na lungkot.
+                            </p>
+                            <br><br>
+                            <p class="blue-text">
+                                <span class="indigo-text"><b>Labels</b>:</span>
+                                <u><i>Inspirasyon, </i></u>
+                                <u><i>Kahulugan, </i></u>
+                                <u><i>Pag-ibig, </i></u>
+                                <u><i>Pagmamahal, </i></u>
+                                <u><i>Pagtitiis, </i></u>
+                                <u><i>Sakripisyo, </i></u>
+                                <u><i>True Love</i></u>
+                            </p>
+                        </div>
+
+                        <!-- <div id="box-footer" class="right-align">
+                            <a href="./poem.html" class="btn indigo accent-4 waves-effect pulse">READ POEM</a>
+                        </div> -->
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <hr>
+    <div class="section">
+        <div class="row">
+            <div class="col s12 m12 l12 center-align">
+                <footer>
+                    Copyright &copy; 2021 <br>
+                    <i>by Benru Presno Macatangay</i> <br>
+                    <span class="blue-text"><i><u>benzkiemacz@gmail.com</u></i></span>
+                </footer>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- script here  -->
+    <script src="./assets/js/jquery-1.7.2.min.js"></script>
+    <script src="./assets/js/materialize.min.js"></script>
+    <script src="./assets/fontawesome/js/all.min.js"></script>
+    <script src="./assets/fontawesome/js/v4-shims.min.js"></script>
+    <script>
+        $(document).ready(() => {
+
+            $('#btn_more').on('click', () => {
+                $('#more').show(500);
+                $('#btn_more').hide();
+            })
+
+        })
+    </script>
+</body>
+
+</html>
